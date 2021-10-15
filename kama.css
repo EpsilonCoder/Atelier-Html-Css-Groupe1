@@ -1,0 +1,111 @@
+.container{
+border: 1px solid #ccc;
+border-bottom: 10px;
+border-left: 20px;
+position: fixed;
+}
+img
+{
+    width: 200px;
+    height: 180px;
+}
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    position: absolute; top: 50px; right: 120px;
+ 
+  
+}
+nav li{
+    display: inline-block;
+    margin: 0px;
+    padding: 0px;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+    
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+    
+}
+.connection{
+    height: 40px;
+    width: 90vw;
+    padding: 80PX;
+    background-color: rgb(233, 108, 19);
+    color: #fff;
+    font-size: 20px;
+    
+}
+.connect{
+    position: relative; left: 1000px; bottom: 70px;
+}
+.corp{
+    height: 500px;
+    width: 90vw;
+    padding: 80px;
+    background-color: navy;
+}
+.baniere{
+    position: absolute; right: 500PX;
+    height: 420px;
+    width: 450px;
+}
+form{
+    width: 40%;
+    height: 750px;
+    background-color: #fff;
+    position: relative; bottom: 230px;
+}
+a{
+    text-decoration: none;
+}
+.centre{
+    text-align: center;
+}
+.color{
+    color:blue;
+}
+
+.email {
+    border: 1px solid blue;
+    margin: 5px;
+    width: 90%;
+    padding: 10px;
+    
+}
+.pass {
+    border: 1px solid blue;
+    margin: 5px;
+    width: 90%;
+    padding: 10px;
+    
+}
+.formulaire{
+    position: relative; left: 20px;
+}
+.button{
+    position: relative; bottom: 400px; left: 500px;
+    text-decoration: none;
+    padding: 15px;
+    background-color: blue;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+}
+/button,a{
+
+}
+a img{
+    height: 30px;
+    width: 30px;
+}
+.dernier{
+    position: relative; bottom: 350px; left: 300px;
+}
+.close{
+    position: relative; bottom: 300px; left: 250px;
+}
