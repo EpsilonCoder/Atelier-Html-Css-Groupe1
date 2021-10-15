@@ -1,0 +1,71 @@
+#Mir{
+	background: white;
+	width:100%;
+	height:110px;
+	margin:0px;
+	padding:0px;
+}
+#Mir > li{
+	position: relative;
+	left: 45%;
+	display:inline;
+	margin:5px;
+	bottom:50px;
+	font-family:;
+
+}
+header{
+	background: #FE9705;
+	width:100%;
+	height:90px;
+	position:relative;
+	bottom:40px;
+
+}
+header >h1{
+	color:white;
+	position: relative;
+	left:60%;
+
+}
+
+}
+header >h2{
+	color:blue;
+	position: relative;
+	left: 10%
+
+}
+
+body{
+	background: blue;
+	width: 100%;
+	height: 100%;
+	
+}
+body >img{
+	position: relative;
+	left:60%;
+
+}
+form{
+	background: white;
+	width:40%;
+	height:700px;
+	position: relative;
+	bottom:370px;
+	left:15px;
+
+}
+form >input{
+	margin:5px;
+	border:1px solid blue;
+	width:90%;
+	padding:10px;
+}
+form >button{
+	background:#8CA6E4;
+	position: relative;
+	left: 75%;
+	height:40px;
+}
