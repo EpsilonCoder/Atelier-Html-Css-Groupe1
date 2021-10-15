@@ -1,0 +1,138 @@
+#navwhite{
+	background: white;
+	width:100%;
+	height:110px;
+	position:relative;
+	bottom:10px;
+
+}
+#navwhite > li{
+	position: relative;
+	left: 45%;
+	display:inline;
+	margin:5px;
+	bottom:50px;
+	font-family:;
+
+}
+header{
+	background: #FE9705;
+	width:100%;
+	height:100px;
+	position:relative;
+	bottom:40px;
+
+}
+header >h1{
+	color:white;
+	position: relative;
+	left:60%;
+
+}
+body{
+	background: blue;
+    min-height: 120vh;
+    width:100%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px;
+  
+	
+}
+body >img{
+	position: relative;
+	left:60%;
+	margin:auto;
+
+}
+form{
+	background: white;
+	width:40%;
+	height:600px;
+	position: relative;
+	bottom:390px;
+	left:29px;
+
+}
+form >input{
+	margin:5px;
+	border:1px solid blue;
+	width:90%;
+	padding:10px;
+}
+form >button{
+	background:#8CA6E4;
+	position: relative;
+	left: 75%;
+	height:40px;
+	color:white;
+}
+ #question >p >button{
+ 	background:#D9D4D4;
+ 	border:1px solid black;
+ 	border-radius:40px;
+ 	font-size:20px;
+ 	margin:25px;
+
+
+ 	
+ }
+  #question >p {
+  	display: inline;
+  
+  }
+  #trait::before {
+  	content: "  ";
+  	position: absolute;
+  	background-color:#FE9705;
+  	width: 30%;
+  	height: 4px;
+  	bottom:320px;
+  	left:35%;
+  }
+
+  #text-question{
+  	color:blue;
+
+  }
+  #cocher{
+  	background: #FE9705;
+  	width: 98%;
+  	height:100px;
+  	border-radius:10px;
+  	
+  }
+ #point{
+ 	display: inline;
+ 	margin:100px;
+ 	position: relative;
+ 	left:10%;
+ 	
+ }
+
+ #one{
+ 	position: relative;
+ 	bottom:92px;
+ 	left:12%;
+ 	color:white;
+ }
+ #two{
+ 	position: relative;
+ 	bottom:170px;
+ 	left:30%;
+ 	color:white;
+
+ }
+ #three{
+ 	position: relative;
+ 	bottom:240px;
+ 	left:50%;
+ 	color:white;
+
+ }
+ #forth{
+ 	position: relative;
+ 	bottom:320px;
+ 	left:70%;
+ 	color:white;
+ }
