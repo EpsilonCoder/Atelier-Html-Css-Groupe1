@@ -1,6 +1,5 @@
 #navwhite{
 	background: white;
-	width:100%;
 	height:110px;
 	position:relative;
 	bottom:10px;
@@ -9,11 +8,10 @@
 #navwhite > li{
 	position: relative;
 	left: 45%;
-	display:inline;
+	display: inline-flex;
 	margin:5px;
 	bottom:50px;
 	font-family:;
-
 }
 header{
 	background: #FE9705;
@@ -36,7 +34,7 @@ body{
     margin:auto;
     min-width:600px;
     max-width:2000px;
-  
+    overflow-x: hidden;
 	
 }
 body >img{
@@ -63,16 +61,17 @@ form >input{
 form >button{
 	background:#8CA6E4;
 	position: relative;
-	left: 75%;
+	left: 60%;
 	height:40px;
 	color:white;
 }
  #question >p >button{
  	background:#D9D4D4;
- 	border:1px solid black;
+ 	border:1px solid blue;
  	border-radius:40px;
  	font-size:20px;
  	margin:25px;
+ 	color: blue;
 
 
  	
@@ -81,13 +80,16 @@ form >button{
   	display: inline;
   
   }
+  #question {
+  	background:#D9D4D4;
+  }
   #trait::before {
   	content: "  ";
   	position: absolute;
   	background-color:#FE9705;
   	width: 30%;
   	height: 4px;
-  	bottom:320px;
+  	bottom:740px;
   	left:35%;
   }
 
@@ -136,3 +138,212 @@ form >button{
  	left:70%;
  	color:white;
  }
+#validation{
+	background:blue;
+	 border-radius:10px;
+	  position: relative;
+	   top:220px;left:30%;
+}
+#validation1{
+	background:blue;
+	 border-radius:10px;
+	  position: relative;
+	   top:220px;
+	    left:30%;
+}
+#lesimages{
+	border:20px solid orange;
+
+}
+#resultattest >span{
+	position:relative;
+	bottom:300px;
+	left:70%;
+}
+
+
+span {
+  animation: glow 0.75s ease-in-out infinite;
+}
+@keyframes glow {
+  0%, 80% {
+    color: red;
+    text-shadow: 0 0 5px white, 0 0 25px white, 0 0 50px white;
+  }
+  
+  10%, 70% {
+    color: orange;
+    text-shadow: none;
+  }
+}
+@media (max-width: 700px){
+
+	#navwhite{
+	background:white;
+	height:110px;
+	position:relative;
+	bottom:10px;
+
+}
+#navwhite > li{
+	color:black;
+	display: block;
+	position: relative;
+	bottom:85px;
+	left:60%;
+
+	
+
+}
+header{
+	background: #FE9705;
+	width:100%;
+	height:100px;
+	position:relative;
+	bottom:40px;
+
+}
+header >h1{
+	color:white;
+	position: relative;
+	left:50%;
+
+}
+body{
+	background: blue;
+    min-height: 120vh;
+    width:100%;
+    margin:auto;
+    min-width:600px;
+    max-width:2000px;
+    overflow-x: hidden;
+	
+}
+body >img{
+	position: relative;
+	left:45%;
+	margin:auto;
+	width:200px;
+	height: 200px;
+
+}
+form{
+	background: white;
+	width:40%;
+	height:600px;
+	position: relative;
+	bottom:300px;
+	left:29px;
+
+}
+form >input{
+	margin:5px;
+	border:1px solid blue;
+	width:90%;
+	padding:10px;
+}
+form >button{
+	background:#8CA6E4;
+	position: relative;
+	left: 60%;
+	height:40px;
+	color:white;
+}
+ #question >p >button{
+ 	background:#D9D4D4;
+ 	border:1px solid blue;
+ 	border-radius:40px;
+ 	font-size:20px;
+ 	margin:25px;
+
+
+ 	
+ }
+  #question >p {
+  	display:block;
+  
+  }
+  #question {
+  	background:#D9D4D4;
+  	height:600px;
+  }
+  #trait::before {
+  	content: "  ";
+  	position: absolute;
+  	background-color:#FE9705;
+  	width: 40%;
+  	height: 4px;
+  	left:35%;
+  	top:720px;
+  }
+
+  #text-question{
+  	color:blue;
+  	position: relative;
+  	right:5%;
+
+  }
+  #cocher{
+  	background: #FE9705;
+  	width: 98%;
+  	height:500px;
+  	border-radius:10px;
+  	
+  }
+ #point{
+ 	display:block;
+ 	margin:100px;
+ 	position: relative;
+ 	left:10%;
+ 	
+ }
+
+ #one{
+ 	position: relative;
+    bottom:500px;
+ 	left:26%;
+ 	color:white;
+ }
+ #two{
+ 	position: relative;
+    bottom:450px;
+ 	left:26%;
+ 	color:white;
+
+ }
+ #three{
+ 	position: relative;
+    bottom:400px;
+ 	left:26%;
+ 	color:white;
+
+ }
+ #forth{
+ 	position: relative;
+    bottom:350px;
+ 	left:26%;
+ 	color:white;
+ }
+
+ #validation{
+	background:blue;
+	 border-radius:10px;
+	  position: relative;
+	   top:750px;left:20%;
+}
+#resultattest >span{
+	position:relative;
+	left:20%;
+	top: 100px;
+	
+}
+#lesimages{
+	border:20px solid orange;
+	width:67%;
+
+}
+ h3{
+ 	display: flex;
+ }
+	
+}
